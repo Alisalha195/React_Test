@@ -17,9 +17,11 @@ function App() {
             >
                Learn React
             </a>
+            <h1>new Features</h1>
+            
          </header>
       </div>
    );
 }
 
-export default App;
+export default App
