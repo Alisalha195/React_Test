@@ -1,9 +1,9 @@
 import {Routes , Route} from 'react-router-dom'
 
-import Home from './components/Home'
-import Products from './components/Product'
-import Contact from './components/Contact'
-import About from './components/About'
+import Home from '../pages/Home'
+import Products from '../pages/Products'
+import Contact from '../pages/Contact'
+import About from '../pages/About'
 
 export default Main = (  ) => {
   return ( 

@@ -1,7 +1,7 @@
 import React from 'react'
 import {useContext , createContext} from 'react'
 
-const ProductContext = React.createContext()
+export const ProductContext = React.createContext()
 
 
 export const ProductContextProvider = ( {children} ) => {
@@ -14,4 +14,6 @@ export const ProductContextProvider = ( {children} ) => {
   	)
 }
 
-export const ProductContext
+// export const ProductContext
+
+// export const {ProductContext , ProductContextProvider}

@@ -1,18 +1,21 @@
 import {Routes , Route , BrowserRouter} from 'react-router-dom'
 import "./App.css";
 
-import Pokemons from './components/Pokemon'
+// import Pokemons from './components/Pokemon'
+
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Main from './components/Main'
 import Footer from './components/Footer'
 
-import ProductContext from './context'
-import ProductContextProvider from './context'
+import {ProductContextProvider} from './context/ProductsContext'
+// import ProductContextProvider from './context/ProductContextProvider'
+// import ProductContext from './context/ProductContext'
+// import ProductContextProvider from './context/ProductContextProvider'
 
-import {BrowserRouter} from 'react-router-dom'
-import About from '/pages/'
-import AddProduct from '/pages/'
+
+import About from './pages/About'
+import AddProduct from './pages/AddProduct'
 
 function App() {
    return (

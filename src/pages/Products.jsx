@@ -1,7 +1,7 @@
 import React from 'react'
-import Product from './components'
+import Product from '../components/Product'
 
-export default ProductsaList = () => {
+export default Products = () => {
 	
 	const products = [{
 		id:'1' ,
