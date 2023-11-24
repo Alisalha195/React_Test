@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default Product = ({name, description , isAvailable}) => {
+const Product = ({name, description , isAvailable}) => {
 	
 	return (
 		<li> 
@@ -11,3 +11,5 @@ export default Product = ({name, description , isAvailable}) => {
 		)
 	
 }
+
+export default Product

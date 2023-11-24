@@ -1,4 +1,4 @@
-export default Sidebar = ( {toggleTheme} ) => {
+const Sidebar = ( {toggleTheme} ) => {
   return ( 
   	<div>
   		<h2>Settings</h2>
@@ -26,3 +26,5 @@ export default Sidebar = ( {toggleTheme} ) => {
   	</div>
   	)
 }
+
+export default Sidebar

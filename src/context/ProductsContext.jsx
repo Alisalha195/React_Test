@@ -25,7 +25,8 @@ const productsList = [
 export const ProductContextProvider = ( {children} ) => {
 	
 	const [darkMode,setDarkMode] = useState(false)
-	
+	const [products,setProducts] = useState([])
+
 	const addProductFun = (product) => {
 		products.concat(product)
 	}
@@ -42,7 +43,7 @@ export const ProductContextProvider = ( {children} ) => {
 	}
 	
 	const context = {
-		products: productsList ,
+		products: setProducts(productsList) ,
 		addProduct : addProductFun ,
 		removeProduct: removeProductFun ,
 		darkMode: darkMode ,
@@ -66,6 +67,7 @@ export const useProductContext = () => {
 	return contextData
 }
 
+export default {ProductContext , ProductContextProvider }
 // export const ProductContext
 
 // export const {ProductContext , ProductContextProvider}

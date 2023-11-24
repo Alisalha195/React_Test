@@ -5,7 +5,7 @@ import Products from '../pages/Products'
 import Contact from '../pages/Contact'
 import About from '../pages/About'
 
-export default Main = (  ) => {
+const Main = (  ) => {
   return ( 
   	
   	<>
@@ -18,3 +18,5 @@ export default Main = (  ) => {
   	</>
   	)
 }
+
+export default Main

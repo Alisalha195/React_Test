@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 
-export default Header = (  ) => {
+const Header = (  ) => {
   return (  
  			<>
  				<h2> Logo </h2>
@@ -13,3 +13,5 @@ export default Header = (  ) => {
  			</>
   	)
 }
+
+export default Header

@@ -1,4 +1,4 @@
-export default Component = (  ) => {
+const Component = (  ) => {
   return ( 
   	<div>
   		 <h2>   this is About Page </h2>
@@ -6,3 +6,5 @@ export default Component = (  ) => {
   	</div>
   )
 }
+
+export default Component

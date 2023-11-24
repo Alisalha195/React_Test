@@ -4,7 +4,7 @@ import ProductContext from '../context/ProductsContext'
 
 import useProductContext from '../context/ProductsContext'
 
-export default Products = () => {
+const Products = () => {
 	
 	const products = useProductContext.products
 
@@ -25,3 +25,5 @@ export default Products = () => {
 	)
 
 }
+
+export default Products
