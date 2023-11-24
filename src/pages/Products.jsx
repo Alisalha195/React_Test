@@ -1,22 +1,24 @@
 import React from 'react'
 import Product from '../components/Product'
+import ProductContext from '../context/ProductsContext'
+
+import useProductContext from '../context/ProductsContext'
 
 export default Products = () => {
 	
-	const products = [{
-		id:'1' ,
-		title:'product1'
-	} , {
-		id: '2',
-		title: 'product2'
-	}]
+	const products = useProductContext.products
 
 	return (
 		<ul>
 			{
 				products.map((item , index) =>{
 					return 
-					< Product key={index} title={item.title} / >
+					< Product key={index} 
+										description = {item.description }
+										
+										name = {item.name}
+										isAvailable = {item.isAvailable}
+										/ >
 				})
 			}
 		</ul>

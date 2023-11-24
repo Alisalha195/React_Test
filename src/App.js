@@ -28,6 +28,10 @@ function App() {
 			    <Footer />
 	      </BrowserRouter>
       </ProductContextProvider>
+      
+      
+      
+      
       </>
    );
 }

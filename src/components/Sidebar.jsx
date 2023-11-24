@@ -1,7 +1,11 @@
-export default Sidebar = (  ) => {
+export default Sidebar = ( {toggleTheme} ) => {
   return ( 
   	<div>
   		<h2>Settings</h2>
+  		
+  		<div>
+  			<button onClick={toggleTheme}>toggle theme</button>
+  		</div>
   		<div>
   			<p>color</p>
   			<div>
